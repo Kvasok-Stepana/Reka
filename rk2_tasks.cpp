@@ -257,7 +257,7 @@ void Graph::BFS(){
             }
             iterpot--;
             if (chis!=iterpot.operator*()->name)
-                fout<<"},";
+                fout<<"}\n";
 
             if (chis==iterpot.operator*()->name)
                 fout<<"}";
